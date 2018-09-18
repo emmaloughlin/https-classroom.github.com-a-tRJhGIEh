@@ -53,6 +53,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 //
 //        let selectedImage = [info(UIImagePickerController.InfoKey.originalImage)] as! UIImage
     
+    
+    //WHATS WRONG W THIS
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any], {
         
         let selectedImage = info[ UIImagePickerControllerOriginalImage] as! UIImage
